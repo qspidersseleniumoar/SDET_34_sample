@@ -7,5 +7,12 @@ public class Vender {
 	public void createVender() {
 		
 	}
+	
+	/**
+	 * @author user2
+	 */
+	public void modifyVender() {
+		
+	}
 
 }
