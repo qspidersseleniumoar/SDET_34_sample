@@ -7,6 +7,7 @@ public class Vender {
 	public void createVender() {
 		
 	}
+
 	
 	/**
 	 * @author user2
@@ -14,5 +15,13 @@ public class Vender {
 	public void modifyVender() {
 		
 	}
+
+	/**
+	 * @author user1
+	 */
+	public void createVender(String lastNmae) {
+		
+	}
+
 
 }
