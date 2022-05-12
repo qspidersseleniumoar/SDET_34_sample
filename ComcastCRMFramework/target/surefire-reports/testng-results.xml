@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="58" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ContactModifyTest.ContactAddressTest()[pri:0, instance:com.contacttest.ContactModifyTest@4cf777e8]" name="ContactAddressTest" class="com.contacttest.ContactModifyTest"/>
+        <method signature="ContactModifyTest.createContactNumberEditTest()[pri:0, instance:com.contacttest.ContactModifyTest@4cf777e8]" name="createContactNumberEditTest" class="com.contacttest.ContactModifyTest"/>
+        <method signature="ContactTest.deleteContactTest()[pri:0, instance:com.contacttest.ContactTest@490ab905]" name="deleteContactTest" class="com.contacttest.ContactTest"/>
+        <method signature="ContactTest.modifyContactTest()[pri:0, instance:com.contacttest.ContactTest@490ab905]" name="modifyContactTest" class="com.contacttest.ContactTest"/>
+        <method signature="OrganizationTest.deleteOrgTest()[pri:0, instance:com.orgtest.OrganizationTest@27c20538]" name="deleteOrgTest" class="com.orgtest.OrganizationTest"/>
+        <method signature="OrganizationTest.modifyOrgTest()[pri:0, instance:com.orgtest.OrganizationTest@27c20538]" name="modifyOrgTest" class="com.orgtest.OrganizationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="ContactModifyTest.createContactNameEditTest()[pri:0, instance:com.contacttest.ContactModifyTest@4cf777e8]" name="createContactNameEditTest" class="com.contacttest.ContactModifyTest"/>
+        <method signature="ContactTest.createContactTest()[pri:0, instance:com.contacttest.ContactTest@490ab905]" name="createContactTest" class="com.contacttest.ContactTest"/>
+        <method signature="OrganizationTest.createOrgTest()[pri:0, instance:com.orgtest.OrganizationTest@27c20538]" name="createOrgTest" class="com.orgtest.OrganizationTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Command line test" duration-ms="58" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+      <class name="com.contacttest.ContactModifyTest">
+        <test-method status="PASS" signature="ContactAddressTest()[pri:0, instance:com.contacttest.ContactModifyTest@4cf777e8]" name="ContactAddressTest" duration-ms="4" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactAddressTest -->
+        <test-method status="PASS" signature="createContactNameEditTest()[pri:0, instance:com.contacttest.ContactModifyTest@4cf777e8]" name="createContactNameEditTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactNameEditTest -->
+        <test-method status="PASS" signature="createContactNumberEditTest()[pri:0, instance:com.contacttest.ContactModifyTest@4cf777e8]" name="createContactNumberEditTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactNumberEditTest -->
+      </class> <!-- com.contacttest.ContactModifyTest -->
+      <class name="com.orgtest.OrganizationTest">
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.orgtest.OrganizationTest@27c20538]" name="createOrgTest" duration-ms="2" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="deleteOrgTest()[pri:0, instance:com.orgtest.OrganizationTest@27c20538]" name="deleteOrgTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrgTest -->
+        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.orgtest.OrganizationTest@27c20538]" name="modifyOrgTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- com.orgtest.OrganizationTest -->
+      <class name="com.contacttest.ContactTest">
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.contacttest.ContactTest@490ab905]" name="createContactTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="deleteContactTest()[pri:0, instance:com.contacttest.ContactTest@490ab905]" name="deleteContactTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactTest -->
+        <test-method status="PASS" signature="modifyContactTest()[pri:0, instance:com.contacttest.ContactTest@490ab905]" name="modifyContactTest" duration-ms="0" started-at="2022-05-10T12:15:29 IST" finished-at="2022-05-10T12:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- com.contacttest.ContactTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
